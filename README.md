@@ -93,7 +93,7 @@ The system is designed to demonstrate **real fintech backend architecture**, inc
 
 ```bash
 git clone <repo-url>
-cd payment-gateway
+cd payment-gateway-async
 docker-compose up -d --build
 ```
 
@@ -114,7 +114,7 @@ docker-compose up -d --build
 
 ## Demo Video
 
-[Demo Link](https://drive.google.com/file/d/1kWy2BeJTwsvI1Pn2_UDnMLRlXpPWU2lD/view?usp=sharing)
+[Demo Link](https://drive.google.com/file/d/1qnAQA95StjVnTD4pBCNtRbydoR7L8rI5/view?usp=sharing)
 
 ---
 
