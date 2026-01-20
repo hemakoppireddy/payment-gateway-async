@@ -1,0 +1,105 @@
+/* ===== RESET SCROLLING ===== */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+/* ===== PAGE WRAPPER ===== */
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  background: #eef1f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ===== CARD ===== */
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 36px 34px;
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.08),
+    0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+/* ===== HEADER ===== */
+.login-header {
+  margin-bottom: 28px;
+}
+
+.login-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  /* color: #1e293b; */
+  color: #5c4c91;
+}
+
+.login-header p {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* ===== FORM FIELDS ===== */
+.form-field {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.form-field input {
+  width: 100%;
+  height: 44px;
+  padding: 0 14px;
+  border-radius: 9px;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  font-size: 14px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-field input:focus {
+  outline: none;
+  border-color: #675e8b;
+  box-shadow: 0 0 0 3px rgba(139, 94, 131, 0.25);
+}
+
+/* ===== BUTTON ===== */
+.login-card button {
+  width: 102%;
+  height: 44px;
+  margin-top: 10px;
+  border-radius: 9px;
+  border: none;
+  background: #5f5e8b;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.05s ease;
+}
+
+.login-card button:hover {
+  background: #58517a;
+}
+
+.login-card button:active {
+  transform: translateY(1px);
+}
