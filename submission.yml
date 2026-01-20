@@ -1,0 +1,25 @@
+version: 1
+
+setup:
+  commands:
+    - docker --version
+    - docker-compose --version
+
+start:
+  commands:
+    - docker-compose up -d --build
+
+verify:
+  commands:
+    - curl http://localhost:8000/health || true
+    - curl http://localhost:8000/api/v1/test/jobs/status
+    - curl http://localhost:3001/checkout.js
+    - curl http://localhost:3000 || true
+
+test:
+  commands:
+    - echo "Manual API & async job testing via automated evaluator"
+
+shutdown:
+  commands:
+    - docker-compose down
