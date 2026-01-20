@@ -36,12 +36,12 @@
 .dashboard-header h1 {
   margin: 0;
   font-size: 26px;
-  color: #564c91;
+  color: #914c84;
 }
 
 /* Button */
 .link {
-  background-color: #5b4c91;
+  background-color: #914c84;
   padding: 10px 16px;
   border-radius: 10px;
   font-size: 14px;
@@ -70,7 +70,7 @@
   margin-top: 0;
   margin-bottom: 18px;
   font-size: 18px;
-  color: #635e8b;
+  color: #8b5e83;
 }
 
 /* Credentials */
@@ -82,7 +82,7 @@
 
 .credential label {
   font-size: 12px;
-  color: #6b6e80;
+  color: #6b7280;
   margin-bottom: 6px;
 }
 
@@ -117,14 +117,14 @@
 .stat-label {
   display: block;
   font-size: 13px;
-  color: #6b7d80;
+  color: #6b7280;
   margin-bottom: 8px;
 }
 
 .stat-value {
   font-size: 26px;
   font-weight: 700;
-  color: #544c91;
+  color: #914c84;
 }
 
 /* ===== RESPONSIVE BREAKPOINTS ===== */
